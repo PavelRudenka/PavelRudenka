@@ -1,0 +1,10 @@
+Integer [] arrays = new Integer []{4,5,9,2,8,3,10};
+Integer x = arrays.size();
+Integer [] even = new Integer []{};
+for (Integer y=0; y<x; y++){
+        if(math.mod (arrays[y], 2) == 0){
+            even.add(arrays[y]); 
+         }        
+     }
+even.sort();
+System.debug(even);		
