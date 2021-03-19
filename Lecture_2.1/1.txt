@@ -1,0 +1,2 @@
+String New = 'Hello world';
+System.debug(New);
