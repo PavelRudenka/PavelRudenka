@@ -1,0 +1,6 @@
+
+String str = 'We are living in America';
+String[] words = str.split(' ');
+Integer size = words.size() - 1;
+System.debug('First word: ' + words[0]);
+System.debug('Last word: ' + words[size]);
